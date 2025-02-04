@@ -75,4 +75,12 @@
 
     <!-- Flag indicating which package name can access the persistent data partition -->
     <string name="config_persistentDataPackageName" translatable="false">com.google.android.gms</string>
+    
+    <!-- Contextual Search -->
+    <string name="config_defaultContextualSearchEnabled">omni.enable_cs_helper</string>
+    <string name="config_defaultContextualSearchKey">omni.entry_point</string>
+    <string name="config_defaultContextualSearchLegacyEnabled">omni.enable_vis</string>
+    <string name="config_defaultContextualSearchPackageName">com.google.android.googlequicksearchbox</string>
+
+    <string name="config_deviceConfiguratorPackageName">com.google.android.gms</string>
 </resources>
