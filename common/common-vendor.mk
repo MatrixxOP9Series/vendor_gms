@@ -6,6 +6,9 @@ PRODUCT_SOONG_NAMESPACES += \
     vendor/gms/common
 
 PRODUCT_COPY_FILES += \
+    vendor/gms/common/proprietary/product/app/Chrome/Chrome.apk.gz:$(TARGET_COPY_OUT_PRODUCT)/app/Chrome/Chrome.apk.gz \
+    vendor/gms/common/proprietary/product/app/TrichromeLibrary/TrichromeLibrary.apk.gz:$(TARGET_COPY_OUT_PRODUCT)/app/TrichromeLibrary/TrichromeLibrary.apk.gz \
+    vendor/gms/common/proprietary/product/app/WebViewGoogle/WebViewGoogle.apk.gz:$(TARGET_COPY_OUT_PRODUCT)/app/WebViewGoogle/WebViewGoogle.apk.gz \
     vendor/gms/common/proprietary/product/etc/default-permissions/default-permissions-google.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/default-permissions/default-permissions-google.xml \
     vendor/gms/common/proprietary/product/etc/default-permissions/default-permissions-mtg.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/default-permissions/default-permissions-mtg.xml \
     vendor/gms/common/proprietary/product/etc/init/gapps.rc:$(TARGET_COPY_OUT_PRODUCT)/etc/init/gapps.rc \
@@ -22,12 +25,19 @@ PRODUCT_COPY_FILES += \
 
 # Product Apps
 PRODUCT_PACKAGES += \
+    CalculatorGoogle \
+    CalendarGoogle \
+    Chrome-Stub \
+    DeskClockGoogle \
     GoogleCalendarSyncAdapter \
     GoogleContactsSyncAdapter \
+    LatinIMEGoogle \
     MarkupGoogle_v2 \
     PrebuiltExchange3Google \
     SpeechServicesByGoogle \
-    talkback
+    talkback \
+    TrichromeLibrary-Stub \
+    WebViewGoogle-Stub
 
 # Product priv-apps
 PRODUCT_PACKAGES += \
@@ -38,6 +48,10 @@ PRODUCT_PACKAGES += \
     Phonesky \
     Velvet \
     Wellbeing
+
+# System apps
+PRODUCT_PACKAGES += \
+    GooglePrintRecommendationService
 
 # System-ext priv-apps
 PRODUCT_PACKAGES += \
