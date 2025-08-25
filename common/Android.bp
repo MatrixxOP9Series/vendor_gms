@@ -313,6 +313,14 @@ android_app_import {
 	system_ext_specific: true,
 }
 
+prebuilt_etc {
+	name: "sysconfig_contextual_search.xml",
+	src: "proprietary/product/etc/sysconfig/sysconfig_contextual_search.xml",
+	relative_install_path: "sysconfig",
+	filename_from_src: true,
+	product_specific: true,
+}
+
 dex_import {
 	name: "com.google.android.dialer.support",
 	owner: "gms",

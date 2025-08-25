@@ -105,7 +105,8 @@ PRODUCT_PACKAGES += \
     SpeechServicesByGoogle \
     talkback \
     TrichromeLibrary-Stub \
-    WebViewGoogle-Stub
+    WebViewGoogle-Stub \
+    sysconfig_contextual_search.xml
 
 # Product priv-apps
 PRODUCT_PACKAGES += \
