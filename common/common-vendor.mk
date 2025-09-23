@@ -116,6 +116,7 @@ PRODUCT_PACKAGES += \
     GoogleRestore \
     Phonesky \
     Velvet \
+    WeatherPixelPrebuilt_24D1 \
     Wellbeing
 
 # System apps
