@@ -47,6 +47,20 @@ android_app_import {
 }
 
 android_app_import {
+	name: "Photos",
+	owner: "gms",
+	apk: "proprietary/product/app/Photos/Photos.apk",
+    optional_uses_libs: ["androidx.window.extensions", "androidx.window.sidecar"],
+	overrides: ["Gallery2", "Glimpse"],
+	preprocessed: true,
+	presigned: true,
+	dex_preopt: {
+		enabled: false,
+	},
+	product_specific: true,
+}
+
+android_app_import {
 	name: "SpeechServicesByGoogle",
 	owner: "gms",
 	apk: "proprietary/product/app/SpeechServicesByGoogle/SpeechServicesByGoogle.apk",

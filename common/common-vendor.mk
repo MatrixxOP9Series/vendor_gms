@@ -15,6 +15,7 @@ PRODUCT_COPY_FILES += \
     vendor/gms/common/proprietary/product/etc/permissions/com.google.android.dialer.support.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/permissions/com.google.android.dialer.support.xml \
     vendor/gms/common/proprietary/product/etc/permissions/privapp-permissions-google-product.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/permissions/privapp-permissions-google-product.xml \
     vendor/gms/common/proprietary/product/etc/permissions/privapp-permissions-mtg.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/permissions/privapp-permissions-mtg.xml \
+    vendor/gms/common/proprietary/product/etc/preferred-apps/google.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/preferred-apps/google.xml \
     vendor/gms/common/proprietary/product/etc/security/fsverity/gms_fsverity_cert.der:$(TARGET_COPY_OUT_PRODUCT)/etc/security/fsverity/gms_fsverity_cert.der \
     vendor/gms/common/proprietary/product/etc/sysconfig/d2d_cable_migration_feature.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/sysconfig/d2d_cable_migration_feature.xml \
     vendor/gms/common/proprietary/product/etc/sysconfig/google.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/sysconfig/google.xml \
@@ -101,6 +102,7 @@ PRODUCT_PACKAGES += \
     GoogleContactsSyncAdapter \
     LatinIMEGoogle \
     MarkupGoogle_v2 \
+    Photos \
     PrebuiltExchange3Google \
     SpeechServicesByGoogle \
     talkback \
